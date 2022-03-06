@@ -23,3 +23,10 @@ Github repo [link](https://github.com/yikesmikey/product-landing-page.git)
 
 ## Folder Structure
 
+The index.html and README files are in the root folder, alongside the screenshot included in the README
+
+The assets folder contains the CSS and JS files, all images and icons used, in their respective folders.
+
+## Acknowledgements
+
+Bear with me, it's been a while.
