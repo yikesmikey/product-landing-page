@@ -64,7 +64,7 @@
 
     <!-- Bars -->
 
-    <!-- Hero section -->
+    <!-- Product Presentation section -->
 <section class="product-example1">
   <div class="intro-text">
     <h1>
@@ -101,11 +101,116 @@
   </p>
 </section>
     <!-- Lightbox image gallery -->
-
-    <!-- Jab TV Stakeholders -->
-
+<section class="example-lightbox">
+  <div class="example-gallery">
+    <a href="assets\images\kfc1.jpg" class="big">
+      <img
+        src="assets\images\kfc1.jpg"
+        alt="KFC"
+        title="Korean Fried Chicken"
+      />
+    </a>
+  <a href="assets\images\kfc2.jpg" class="big">
+    <img
+      src="assets\images\kfc2.jpg"
+      alt="KFC"
+      title="Korean Fried Chicken"
+    />
+  </a>
+  <a href="assets\images\kfc3.jpg" class="big">
+    <img
+      src="assets\images\kfc3.jpg"
+      alt="KFC"
+      title="Korean Fried Chicken"
+    />
+  </a>
+  <a href="assets\images\kfc4.jpg" class="big">
+    <img
+      src="assets\images\kfc4.jpg"
+      alt="Daikon"
+      title="Korean Pickled Daikon"
+    />
+  </a>
+  </div>
+</section>
+    <!-- Instagram Feed -->   
+<section class="instagram-feed" id="instagram-feed">
+      <div class="insta-header">
+        <h2>Peek into our Social Media!</h2>
+        <p>
+          Take a quick look into our instagram page to see what we provide including examples, descriptions, and first-looks into new and upcoming stuff! Just filler text.
+        </p>
+      </div>
+    <div id="curator-feed-default-feed-layout">
+      <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+    </div>
+      <script type="text/javascript">
+        (function(){
+          var i,e,d=document,s="script";i=d.createElement ("script");i.async=1;i.charset="UTF-8";
+          i.src="https://cdn.curator.io/published/b11dd7ae-c6bc-4a88-9cb2-e3885c03366a.js";
+          e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+        })();
+    </script>
+</section>
+    <!-- Meet our Chefs -->
+<section class="people" id="chefs">
+    <div class="chefs">
+      <div class="persons">
+        <div class="chef-1">
+          <img
+            src="assets\images\steve_doe.jpeg"
+            alt="Gregory Pittman"
+          />
+          <p class="name">Steve Doe</p>
+          <p class="role">Chef De Cuisine</p>
+          <br>
+          <p class="about-the-chef">Steve Doe leads our amazing kitchen staff and contributes to entire menus offered here at *KFC Restaurant Name*. Traditionally trained in French Cuisine, Steve applies his techniques to guide his kitchen, presenting amazing dishes that all of our customers enjoy.</p>
+        </div>
+        <div class="chef-2">
+          <img
+            src="assets\images\jane_doe.jpg"
+            alt="Jane Doe"
+          />
+          <p class="name">Jane Doe</p>
+          <p class="role">Sous Chef</p>
+          <br>
+          <p class="about-the-chef">Jane Doe leads our amazing kitchen staff and contributes to entire menus offered here at *KFC Restaurant Name*. Traditionally trained in French Cuisine, Jane applies her techniques to guide his kitchen, presenting amazing dishes that all of our customers enjoy.</p>
+        </div>
+        <div class="chef-3">
+          <img
+            src="assets\images\john_doe.jpg"
+            alt="John Doe"
+          />
+          <p class="name">John Doe</p>
+          <p class="role">Sous Chef</p>
+          <br>
+          <p class="about-the-chef">John Doe leads our amazing kitchen staff and contributes to entire menus offered here at *KFC Restaurant Name*. Traditionally trained in French Cuisine, John applies his techniques to guide his kitchen, presenting amazing dishes that all of our customers enjoy.</p>
+        </div>
+      </div>
+    </div>
+</section>
     <!-- Email subscription -->
-
+<section class="sub" id="sub">
+    <h3>Subscribe to our newsletter for updates!</h3>
+    <form
+      action="https://formspree.io/f/xwkyqbbg"
+      method="POST"
+    >
+      <input
+        type="email"
+        name="email"
+        id="email-sub"
+        class="email-sub"
+        required
+      />
+      <input
+        type="submit"
+        value="Subscribe!"
+        id="submit-btn"
+        class="submit-btn"
+      />
+    </form>
+</section>
     <!-- Social icons -->
 
     <!-- Scroll to top button -->
@@ -123,6 +228,7 @@
     <script src="assets/js/simple-lightbox.min.js"></script>
     <script>
       // Simple lightbox initializer
+      var lightbox = new SimpleLightbox(".example-gallery a");
     </script>
   </body>
 </html>
