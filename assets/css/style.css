@@ -271,3 +271,25 @@ form {
     border: 1px solid var(--secondary-color);
     outline: none;
 }
+
+.submit-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+    border-radius: 2px;
+    cursor: pointer;    
+}
+
+.submit-btn:hover {
+    background-color: #095cf7;
+}
+
+.social {
+    text-align: center;
+    margin: 2rem;
+}
+
+.socicons {
+    font-size: 1.3rem;
+}
